@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Marcos Luis - Portifólio</title>
+    <link rel="stylesheet" href="estilo.css"><!-- Ligação ao arquivo CSS externo-->
+    <script src="script.js"></script>
+
+</head>
+<body>
+ <!-- Cabeçalho da página -->   
+<header>
+    <section>
+        <h1 class="pessoal">Portifólio Pessoal - Marcos Luis RU4330689</h1>
+    </section>
+<!-- Seção "topo" com links âncora --> 
+    <section id="topo">
+        <ul>
+            <!-- Links âncora para as seções abaixo -->
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#formacao">Formação Educacional</a></li>
+            <li><a href="#portifolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </section>
+    </header>
+    <!-- Conteúdo principal da página -->
+    <main>
+    <div id="corpo">
+        <div class="apresentacao" id="sobre" ><!-- Seção "Sobre" -->
+        <h1>Sobre Mim</h1>
+        <!-- Texto de apresentação -->
+        <h3>Apresentação:</h3>
+            <p>Olá, Me chamo Marcos Luis de Oliveira Silva, filho de Aparecida de Oliveira Santos da Silva e Omar Manoel Santos da Silva, tenho mais 3 irmãos,
+                Maira Cristina de Oliveira Silva(In memorian), Lucas Manoel de Oliveira Silva e Sara Santos da Silva.<br><br>
+                Tenho 30 anos de idade, sou casado à 7 anos e tenho um filho de 6 anos de idade. Atualmente trabalho em uma empresa chamada KVA, onde comecei
+                cedo, com apenas 15 anos de idade(2008), logo após o falecimento de minha irmã mais velha. Graças a essa empresa pude crescer profissionalmente,
+                começando em 2008 como office-boy e depois passando por auxiliar de produção, controle de qualidade, operador de máquina de SMD e PTH, suporte técnico
+                e atualmente atuando como técnico em eletrônica, focado no reparo de equipamento defeituosos. <br><br>
+                Agora estou em busca de uma nova oportunidade, de migrar para a área de TI. Está sendo um desafio e tanto para mim, pois estou saindo da minha zona de conforto
+                e indo para uma área da qual eu não conhecia absolutamente nada, confesso que está sendo trabalhoso, mas no final valerá a pena.
+            </p>
+         <!-- Descrição dos hobbies -->
+        <h3>Hobbies:</h3>
+                <p>Não tenho muitos hobbies, porém os que tenho me fazem muito bem, que são:
+                andar de bicicleta, consertar celular e eletrônicos em geral, jogar jogos do tipo MMORPG, ir à igreja.
+            </p>
+        </div>
+        <!-- Seção "Formação Educacional" -->
+        <div class="educacao" id="formacao">
+        <h1>Formação Educacional</h1>
+        <ol>
+            <!-- Lista de formação educacional -->
+            <li><strong>Ensino Médio Completo</strong></li>
+            <p>Em 2013 me formei no ensino médio, utilizando o método EJA, no período noturno.
+            </p>
+            <li><strong>Técnico em Eletrônica</strong></li>
+            <p>Após me formar no ensino médio, me ingressei em 2014 na escola técnica de eletrônica Francisco Moreira da Costa(ETE FMC), cursando no período noturno
+            Técnico em Eletrônica com ênfase em Automação Industrial, me formando em meiados de 2016 e exercendo a função a partir de então.
+            </p>
+            <li><strong>Curso de Apresentação e Oratória</strong></li>
+            <p>Em 2017 tive a oportunidade de realizar um curso que me ajudou e muito nas questões de apresentação e oratória, sabendo assim a maneira correta de se expressar
+            verbalmente e fisicamente.
+            </p>
+            <li><strong>Curso Técnico de Celulares</strong></li>
+            <p>Em 2018 visando aprofundar um pouco mais na eletrônica, fiz um curso de 4 meses de manutenção e reparo em aparelhos celulares, com isso virando meu passa tempo,
+            consertando celulares de familiares e amigos.
+            </p>
+            <li><strong>Inglês Básico-Intermediário</strong></li>
+            <p>Em 2021 devido a pandemia, procurei um curso 100% online de inglês e de tanto pesquisar, acabei adquirindo o curso do Mairo Vergara, onde até hoje eu estudo.
+            </p>
+            <li><strong>Análise e Desenvolvimento de Sistemas</strong></li>
+            <p>Em 2023 decidi me arriscar em um novo mundo, totalmente diferente do qual eu estou acostumado, estou me mantendo firme até o presente momento.
+            </p>
+        </ol>
+        </div>
+        <!-- Seção "Portfólio" -->
+        <div class="trabalho" id="portifolio">
+            <h1>Portifólio</h1>
+        <p>Até o presente momento deste curso, os únicos portfólios feitos são:</p>
+        <a href="file:///C:/Users/Lalesca%20e%20Marcos/OneDrive/%C3%81rea%20de%20Trabalho/Calculo/index.html" target="_blank">Cálculo Exponênciação</a><br><br>
+        <a href="http://127.0.0.1:5500/index.html">Portfólio Pessoal</a>
+        </div>
+        <footer>
+            <div class="contact" id="contato">
+                <h2>Entre em Contato</h2>
+                <form id="formulario" action="javascript:void(0);" onsubmit="enviarWhatsApp()">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+            
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" rows="4" required></textarea>
+            
+                    <button type="submit">Enviar para o WhatsApp</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+    </main>
+
+</body>
+</html>

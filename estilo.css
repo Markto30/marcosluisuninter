@@ -1,0 +1,163 @@
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 120px;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+		
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	width: 100%; /* Largura total da página */
+	text-align: center; /* Centralizar o texto horizontalmente */
+	position: fixed;	
+}
+
+header h1 {
+	margin: 0;
+	padding: 10px;
+}
+
+header ul {
+	list-style: none;
+	padding: 0;
+}
+
+header ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+main {
+	padding: 20px;
+	padding-top: 110px; /* Ajuste a altura de acordo com a altura do seu header */
+}
+
+main h1 {
+	font-size: 24px;
+	color: #009688;
+}
+
+main h3 {
+	font-size: 18px;
+	color: #333;
+}
+
+main p {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #555;
+}
+
+main ol {
+	list-style-type: decimal;
+	margin-left: 20px;
+	color: #555;
+}
+
+.apresentacao {
+    border: 2px solid #009688; /* Borda sólida com uma cor específica */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    margin: 10px 0; /* Espaçamento externo */
+    background-color: #f9f9f9; /* Cor de fundo para a seção */
+}
+
+.apresentacao h1 {
+    font-size: 24px; /* Tamanho da fonte para o título */
+    color: #009688; /* Cor do título */
+}
+
+.apresentacao h3 {
+    font-size: 18px; /* Tamanho da fonte para os subtítulos */
+    color: #333; /* Cor dos subtítulos */
+}
+
+.apresentacao p {
+    font-size: 16px; /* Tamanho da fonte para o texto */
+    line-height: 1.5; /* Espaçamento entre linhas do texto */
+    color: #555; /* Cor do texto */
+}
+
+.educacao {
+    border: 2px solid #009688; /* Borda sólida com uma cor específica */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    margin: 10px 0; /* Espaçamento externo */
+    background-color: #f9f9f9; /* Cor de fundo para a seção */
+}
+
+.educacao h1 {
+    font-size: 24px; /* Tamanho da fonte para o título */
+    color: #009688; /* Cor do título */
+}
+
+.educacao ol {
+    list-style-type: decimal; /* Marcadores numéricos para a lista ordenada */
+    margin-left: 20px; /* Recuo à esquerda da lista */
+    color: #555; /* Cor do texto da lista */
+}
+
+.educacao li {
+    margin-bottom: 10px; /* Espaçamento entre itens da lista */
+}
+
+.educacao p {
+    font-size: 16px; /* Tamanho da fonte para o texto */
+    line-height: 1.5; /* Espaçamento entre linhas do texto */
+    color: #555; /* Cor do texto */
+}
+
+/* Estilo para a seção "Portfólio" */
+.trabalho {
+    border: 2px solid #009688; /* Borda sólida com uma cor específica */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    margin: 10px 0; /* Espaçamento externo */
+    background-color: #f9f9f9; /* Cor de fundo para a seção */
+}
+
+.trabalho h1 {
+    font-size: 24px; /* Tamanho da fonte para o título */
+    color: #009688; /* Cor do título */
+}
+
+.trabalho p {
+    font-size: 16px; /* Tamanho da fonte para o texto */
+    line-height: 1.5; /* Espaçamento entre linhas do texto */
+    color: #555; /* Cor do texto */
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+form {
+	text-align: left;
+}
+
+label, input, textarea {
+	display: block;
+	margin: 10px 0;
+}
+
+input, textarea {
+	width: 98%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #009688;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
